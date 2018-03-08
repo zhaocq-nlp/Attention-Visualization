@@ -59,7 +59,10 @@ python exec/plot_heatmap.py --input toydata/toy.attention
 ```
 It will plot the traditional attention heatmap:
 
-figure1
+<div align="center">
+  <img src="https://github.com/zhaocq-nlp/Attention-Visualization/blob/master/toydata/figures/java-heatmap1.png"><br><br>
+</div>
+
 
 2\. As for java version (for both simple attention and Google's multihead attention), execute
 ``` bash
