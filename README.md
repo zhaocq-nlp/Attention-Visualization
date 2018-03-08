@@ -60,7 +60,7 @@ python exec/plot_heatmap.py --input toydata/toy.attention
 It will plot the traditional attention heatmap:
 
 <div align="center">
-  <img src="https://github.com/zhaocq-nlp/Attention-Visualization/blob/master/toydata/figures/java-heatmap1.png"><br><br>
+  <img src="https://github.com/zhaocq-nlp/Attention-Visualization/blob/master/toydata/figures/py-heatmap1.png"><br><br>
 </div>
 
 
@@ -69,16 +69,26 @@ It will plot the traditional attention heatmap:
 java -jar exec/plot_heatmap.jar
 ```
 then select the `toydata/toy.attention` on the GUI.
-figure1 figure2
+
+<div align="center">
+  <img src="https://github.com/zhaocq-nlp/Attention-Visualization/blob/master/toydata/figures/java-heatmap1.png"><br><br>
+</div>
+<div align="center">
+  <img src="https://github.com/zhaocq-nlp/Attention-Visualization/blob/master/toydata/figures/java-heatmap2.png"><br><br>
+</div>
 
 The words on the left side are attention "queries" and attention "keys" are on the right. Click on the words on the left side to see the heatmap:
 
-figure3
+<div align="center">
+  <img src="https://github.com/zhaocq-nlp/Attention-Visualization/blob/master/toydata/figures/java-heatmap3.png"><br><br>
+</div>
 
 Here shows the traditional `encoder_decoder_attention` of word "obtained". The color depth of lines and squares indicate the degree of attention.
 
 Next, select `encoder_self_attention0` under the menu bar. Click on the "获得" on the left.
 
-figure4
+<div align="center">
+  <img src="https://github.com/zhaocq-nlp/Attention-Visualization/blob/master/toydata/figures/java-heatmap4.png"><br><br>
+</div>
 
 Here shows the multi-head attention of the word "获得". Attention weights of head0 - head7 are displayed on the right.
