@@ -91,4 +91,4 @@ Next, select `encoder_self_attention0` under the menu bar. Click on the "获得"
   <img src="https://github.com/zhaocq-nlp/Attention-Visualization/blob/master/toydata/figures/java-heatmap4.png"><br><br>
 </div>
 
-Here shows the multi-head attention of the word "获得". Attention weights of head0 - head7 are displayed on the right.
+It shows the multi-head attention of the word "获得". Attention weights of head0 - head7 are displayed on the right.
