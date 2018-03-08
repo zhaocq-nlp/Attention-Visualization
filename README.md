@@ -46,6 +46,8 @@ The name of the attention file should end with ".attention" extension especially
 
 Note that due to the hard coding, the `name` of each attention should contain "encoder_decoder_attention", "encoder_self_attention" or "decoder_self_attention" substring on the basis of its real meaning.
 
+The `value` has shape [length_queries, length_keys] when `type`=simple and has shape [num_heads, length_queries, length_keys] when `type`=multihead.
+
 For more details, see [attention.py](https://github.com/zhaocq-nlp/NJUNMT-tf/blob/master/njunmt/inference/attention.py).
 
 ## Demo
